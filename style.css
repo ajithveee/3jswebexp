@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* To prevent scrollbars if the scene container is slightly off */
+}
+
+#scene-container {
+    width: 1080px;
+    height: 1080px;
+    border: 1px solid #333; /* A subtle border for visual cue before scene loads */
+}
